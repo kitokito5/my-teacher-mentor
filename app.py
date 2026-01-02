@@ -5,7 +5,7 @@ import datetime
 # --- ページ設定 ---
 st.set_page_config(page_title="My Teacher Mentor", page_icon="🌱")
 st.title("🌱 My Teacher Mentor (Cloud)")
-st.markdown("お疲れ様です。自動ログインで準備万端です。これはごっしーとGeminiが共同でつくった専用アプリです。")
+st.markdown("お疲れ様です。これはごっしー専用アプリです。GitHub,PythonやSteamlitを使って開発しています。")
 
 # --- セッション状態の初期化 ---
 if 'response_text' not in st.session_state:
